@@ -1,5 +1,16 @@
-# 💫 About Me:
-Aspiring Network & Cybersecurity Specialist with a passion for safeguarding digital landscapes and a flair for problem-solving. Skilled in web development (HTML/CSS/JS, Laravel) and continuously sharpening my programming chops to bridge the gap between security and innovation. I thrive on challenges, love clean code, and am always exploring creative ways to merge tech and design.<br><br>🔑 Current Focus:<br><br>Network defense & vulnerability testing<br><br>Full-stack web dev<br><br>Creative UI/UX experiments (big Figma fan!)<br><br>Continuous learning & growth mindset
+# 💫 About Me
+
+🚀 Aspiring **Network & Cybersecurity Specialist** with a mission to secure digital ecosystems and a knack for solving complex problems. I’m skilled in **web development** (HTML, CSS, JS, Laravel) and constantly sharpening my programming game to bridge the gap between **security, functionality, and creative design**. I thrive on challenges, love writing clean, efficient code, and enjoy pushing boundaries through **UI/UX innovation**.
+
+---
+
+🔑 **Current Focus:**
+
+- 🛡️ **Network Defense & Vulnerability Testing**
+- 🌐 **Full-Stack Web Development in laravel**
+- 🎨 **Creative UI/UX Design (Certified Figma Addict 😄)**
+- 📈 **Continuous Learning & Growth Mindset**
+
 
 
 ## 🌐 Socials:
