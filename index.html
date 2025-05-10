@@ -9,39 +9,39 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #1e1e2f;
-      color: #f0f0f3;
+      background-color: #0d1117; /* Dark background for modern look */
+      color: #c9d1d9; /* Soft white text for readability */
       padding: 20px;
       margin: 0;
     }
 
     h1, h2, h3 {
-      color: #ffae00;
+      color: #ffdf5d; /* Vibrant yellow for headings */
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
 
     a {
       text-decoration: none;
-      color: #ffae00;
+      color: #58a6ff; /* Blue for links */
       transition: color 0.3s ease-in-out;
     }
 
     a:hover {
-      color: #f0f0f3;
+      color: #ffdf5d; /* Yellow on hover */
     }
 
     .badge {
       margin: 5px;
-      background-color: #2c2c3e;
-      color: #f0f0f3;
-      border: 1px solid #444;
+      background-color: #161b22;
+      color: #c9d1d9;
+      border: 1px solid #30363d;
       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .badge:hover {
       transform: scale(1.1);
-      box-shadow: 4px 4px 12px rgba(255, 174, 0, 0.7);
+      box-shadow: 4px 4px 12px rgba(255, 223, 93, 0.7);
     }
 
     .stats img {
@@ -52,7 +52,7 @@
     }
 
     .divider {
-      border-top: 3px solid #ffae00;
+      border-top: 2px solid #30363d; /* Subtle divider */
       margin: 20px 0;
     }
 
@@ -69,12 +69,12 @@
 
     ul li:hover {
       transform: translateX(10px);
-      color: #ffae00;
+      color: #ffdf5d; /* Highlight on hover */
     }
 
     button {
-      background-color: #2c2c3e;
-      color: #ffae00;
+      background-color: #161b22;
+      color: #ffdf5d;
       border: none;
       padding: 10px 20px;
       border-radius: 8px;
@@ -85,17 +85,27 @@
     }
 
     button:hover {
-      background-color: #ffae00;
-      color: #2c2c3e;
+      background-color: #ffdf5d;
+      color: #161b22;
       transform: translateY(-5px);
-      box-shadow: 4px 4px 12px rgba(255, 174, 0, 0.7);
+      box-shadow: 4px 4px 12px rgba(255, 223, 93, 0.7);
+    }
+
+    .about-me {
+      text-align: right; /* Align content to the right */
+      padding: 20px;
+      background-color: #161b22;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
     }
   </style>
 </head>
 <body>
 
-  <h1>💫 About Me</h1>
-  <p>🚀 Aspiring <strong>Network & Cybersecurity Specialist</strong> with a mission to secure digital ecosystems...</p>
+  <div class="about-me">
+    <h1>💫 About Me</h1>
+    <p>🚀 Aspiring <strong>Network & Cybersecurity Specialist</strong> with a mission to secure digital ecosystems and bridge the gap between <strong>security, functionality, and creative design</strong>. I thrive on challenges, love writing clean, efficient code, and enjoy pushing boundaries through <strong>UI/UX innovation</strong>.</p>
+  </div>
 
   <hr class="divider">
 
@@ -111,24 +121,24 @@
 
   <h2>🌐 Socials:</h2>
   <div class="social-icons">
-    <a href="https://bsky.app/profile/askaarrr.bsky.social" class="badge bg-primary text-white">Bluesky</a>
-    <a href="https://discord.gg/https://discord.gg/MWpmqKue" class="badge bg-secondary text-white">Discord</a>
-    <a href="https://instagram.com/heisaskarr" class="badge bg-danger text-white">Instagram</a>
-    <a href="https://www.linkedin.com/in/mohamed-hany-02777b283/" class="badge bg-info text-white">LinkedIn</a>
-    <a href="https://reddit.com/user/Rska_" class="badge bg-warning text-dark">Reddit</a>
-    <a href="https://stackoverflow.com/users/29977090/the-askar" class="badge bg-dark text-white">Stack Overflow</a>
-    <a href="https://tiktok.com/@3skaar21" class="badge bg-black text-white">TikTok</a>
-    <a href="mailto:mohammedhanyasker@gmail.com" class="badge bg-danger text-white">Email</a>
+    <a href="https://bsky.app/profile/askaarrr.bsky.social" class="badge">Bluesky</a>
+    <a href="https://discord.gg/https://discord.gg/MWpmqKue" class="badge">Discord</a>
+    <a href="https://instagram.com/heisaskarr" class="badge">Instagram</a>
+    <a href="https://www.linkedin.com/in/mohamed-hany-02777b283/" class="badge">LinkedIn</a>
+    <a href="https://reddit.com/user/Rska_" class="badge">Reddit</a>
+    <a href="https://stackoverflow.com/users/29977090/the-askar" class="badge">Stack Overflow</a>
+    <a href="https://tiktok.com/@3skaar21" class="badge">TikTok</a>
+    <a href="mailto:mohammedhanyasker@gmail.com" class="badge">Email</a>
   </div>
 
   <hr class="divider">
 
   <h2>💻 Tech Stack:</h2>
-  <span class="badge bg-primary">PHP</span>
-  <span class="badge bg-info">CSS3</span>
-  <span class="badge bg-danger">Laravel</span>
-  <span class="badge bg-warning text-dark">HTML5</span>
-  <span class="badge bg-secondary">JavaScript</span>
+  <span class="badge">PHP</span>
+  <span class="badge">CSS3</span>
+  <span class="badge">Laravel</span>
+  <span class="badge">HTML5</span>
+  <span class="badge">JavaScript</span>
 
   <hr class="divider">
 
