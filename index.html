@@ -86,6 +86,13 @@
     .section {
       margin-bottom: 40px; /* Added spacing between sections */
     }
+
+    .snake img {
+      width: 100%; /* Ensures the snake is responsive */
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for better visibility */
+    }
   </style>
 </head>
 <body>
@@ -159,6 +166,17 @@
     <h2>🔝 Top Contributed Repo:</h2>
     <p><a href="https://github.com/mohamedAskaarrr/WebSecService230104752" target="_blank">WebSecService230104752</a></p>
   </div>
+
+  <hr class="divider">
+
+  <!-- GitHub Snake Workflow -->
+<div class="snake">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake.svg" />
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" />
+  </picture>
+</div>
 
 </body>
 </html>
