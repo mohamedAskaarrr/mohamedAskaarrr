@@ -45,14 +45,15 @@
       box-shadow: 4px 4px 12px rgba(255, 223, 93, 0.7);
     }
 
-    .badge-bluesky { background-color: #1c91ff; color: #fff; }
-    .badge-discord { background-color: #5865f2; color: #fff; }
-    .badge-instagram { background-color: #e1306c; color: #fff; }
-    .badge-linkedin { background-color: #0077b5; color: #fff; }
-    .badge-reddit { background-color: #ff4500; color: #fff; }
-    .badge-stackoverflow { background-color: #f48024; color: #fff; }
-    .badge-tiktok { background-color: #010101; color: #fff; }
-    .badge-email { background-color: #bb001b; color: #fff; }
+    .profile-pic {
+      width: 200px; /* Proportional size */
+      height: 200px;
+      border-radius: 50%; /* Perfect circle */
+      object-fit: cover; /* Ensures the image fills the circle proportionately */
+      border: 4px solid #ffdf5d; /* Highlighted border */
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+      margin: 20px auto; /* Centered with margin */
+    }
 
     .stats img {
       max-width: 100%;
@@ -63,7 +64,7 @@
 
     .divider {
       border-top: 2px solid #30363d; /* Subtle divider */
-      margin: 20px 0;
+      margin: 30px 0;
     }
 
     ul {
@@ -81,71 +82,82 @@
       transform: translateX(10px);
       color: #ffdf5d; /* Yellow highlight on hover */
     }
+
+    .section {
+      margin-bottom: 40px; /* Added spacing between sections */
+    }
   </style>
 </head>
 <body>
 
-  <h1>💫 About Me</h1>
-  <p>🚀 I’m a passionate <strong>Network & Cybersecurity Specialist</strong> who loves solving problems, creating secure digital environments, and building beautiful user interfaces. Constantly learning and growing every day!</p>
+  <!-- Profile Picture -->
+  <img src="profile.jpg" alt="Mohamed Hany Askaarrr" class="profile-pic">
 
-  <hr class="divider">
-
-  <h2>🔑 Current Focus:</h2>
-  <ul>
-    <li>🛡️ <strong>Network Defense & Vulnerability Testing</strong></li>
-    <li>🌐 <strong>Full-Stack Web Development in Laravel</strong></li>
-    <li>🎨 <strong>Creative UI/UX Design</strong></li>
-    <li>📈 <strong>Continuous Learning & Growth Mindset</strong></li>
-  </ul>
-
-  <hr class="divider">
-
-  <h2>🌐 Socials:</h2>
-  <div class="social-icons">
-    <a href="https://bsky.app/profile/askaarrr.bsky.social" class="badge badge-bluesky">Bluesky</a>
-    <a href="https://discord.gg/https://discord.gg/MWpmqKue" class="badge badge-discord">Discord</a>
-    <a href="https://instagram.com/heisaskarr" class="badge badge-instagram">Instagram</a>
-    <a href="https://www.linkedin.com/in/mohamed-hany-02777b283/" class="badge badge-linkedin">LinkedIn</a>
-    <a href="https://reddit.com/user/Rska_" class="badge badge-reddit">Reddit</a>
-    <a href="https://stackoverflow.com/users/29977090/the-askar" class="badge badge-stackoverflow">Stack Overflow</a>
-    <a href="https://tiktok.com/@3skaar21" class="badge badge-tiktok">TikTok</a>
-    <a href="mailto:mohammedhanyasker@gmail.com" class="badge badge-email">Email</a>
+  <div class="section">
+    <h1>💫 About Me</h1>
+    <p>🚀 I’m a passionate <strong>Network & Cybersecurity Specialist</strong> who loves solving problems, creating secure digital environments, and constantly learning new technologies.</p>
   </div>
 
   <hr class="divider">
 
-  <h2>💻 Tech Stack:</h2>
-  <span class="badge" style="background-color: #4F5D95; color: #fff;">PHP</span>
-  <span class="badge" style="background-color: #264de4; color: #fff;">CSS3</span>
-  <span class="badge" style="background-color: #ff2d20; color: #fff;">Laravel</span>
-  <span class="badge" style="background-color: #e34c26; color: #fff;">HTML5</span>
-  <span class="badge" style="background-color: #f7df1e; color: #000;">JavaScript</span>
-
-  <hr class="divider">
-
-  <h2>📊 GitHub Stats:</h2>
-  <div class="stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=mohamedAskaarrr&theme=react&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats">
-    <img src="https://nirzak-streak-stats.vercel.app/?user=mohamedAskaarrr&theme=react&hide_border=false" alt="GitHub Streak">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedAskaarrr&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+  <div class="section">
+    <h2>🔑 Current Focus:</h2>
+    <ul>
+      <li>🛡️ <strong>Network Defense & Vulnerability Testing</strong></li>
+      <li>🌐 <strong>Network Operation & Building</strong></li>
+      <li>🔧 <strong>Cisco Packet Tracer & GNS3</strong></li>
+      <li>📈 <strong>Continuous Learning & Growth Mindset</strong></li>
+    </ul>
   </div>
 
   <hr class="divider">
 
-  <h2>✍️ Random Dev Quote:</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote">
-
-  <h2>🔝 Top Contributed Repo:</h2>
-  <p><a href="https://github.com/mohamedAskaarrr/WebSecService230104752" target="_blank">WebSecService230104752</a></p>
+  <div class="section">
+    <h2>🌐 Socials:</h2>
+    <div class="social-icons">
+      <a href="https://bsky.app/profile/askaarrr.bsky.social" class="badge badge-bluesky">Bluesky</a>
+      <a href="https://discord.gg/https://discord.gg/MWpmqKue" class="badge badge-discord">Discord</a>
+      <a href="https://instagram.com/heisaskarr" class="badge badge-instagram">Instagram</a>
+      <a href="https://www.linkedin.com/in/mohamed-hany-02777b283/" class="badge badge-linkedin">LinkedIn</a>
+      <a href="https://reddit.com/user/Rska_" class="badge badge-reddit">Reddit</a>
+      <a href="https://stackoverflow.com/users/29977090/the-askar" class="badge badge-stackoverflow">Stack Overflow</a>
+      <a href="https://tiktok.com/@3skaar21" class="badge badge-tiktok">TikTok</a>
+      <a href="mailto:mohammedhanyasker@gmail.com" class="badge badge-email">Email</a>
+    </div>
+  </div>
 
   <hr class="divider">
 
-  <div class="snake">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-      <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/output/github-snake.svg" />
-    </picture>
+  <div class="section">
+    <h2>💻 Tech Stack:</h2>
+    <span class="badge" style="background-color: #4F5D95; color: #fff;">PHP</span>
+    <span class="badge" style="background-color: #264de4; color: #fff;">CSS3</span>
+    <span class="badge" style="background-color: #ff2d20; color: #fff;">Laravel</span>
+    <span class="badge" style="background-color: #e34c26; color: #fff;">HTML5</span>
+    <span class="badge" style="background-color: #f7df1e; color: #000;">JavaScript</span>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <h2>📊 GitHub Stats:</h2>
+    <div class="stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=mohamedAskaarrr&theme=react&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats">
+      <img src="https://nirzak-streak-stats.vercel.app/?user=mohamedAskaarrr&theme=react&hide_border=false" alt="GitHub Streak">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedAskaarrr&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <h2>✍️ Random Dev Quote:</h2>
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote">
+  </div>
+
+  <div class="section">
+    <h2>🔝 Top Contributed Repo:</h2>
+    <p><a href="https://github.com/mohamedAskaarrr/WebSecService230104752" target="_blank">WebSecService230104752</a></p>
   </div>
 
 </body>
