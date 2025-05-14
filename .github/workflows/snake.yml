@@ -1,15 +1,13 @@
-name: GitHub Snake Game
-
 on:
   # Schedule the workflow to run daily at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-  # Allow manual triggering of the workflow
-  workflow_dispatch:
+
   # Trigger the workflow on pushes to the main branch
   push:
     branches:
       - main
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -39,8 +37,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           # Optionally, you can set a custom commit message
-# <<<<<<< HEAD
-#           commit_message: "Update snake animation [skip ci]"
-# =======
-#           commit_message: "Update snake animation [skip ci]"
-# >>>>>>> 34d4423c4290288b4bcb6bcf004613cfe68a7a98
+          commit_message: "Update snake animation [skip ci]"
