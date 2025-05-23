@@ -6,9 +6,12 @@
 
 🔑 **Current Focus:**
 
-- 🛡️ **Network Defense & Vulnerability Testing**
+- 🛡️ **Network Operation and Analisys (Wireshark) , (ELK , Kibana ,sysmon ,...) **
+- 🌐 **Digital Forensiscs Beginner**
+- 🌐 **Linux , Redhat And shell programing **
 - 🌐 **Full-Stack Web Development in laravel**
-- 🎨 **Creative UI/UX Design (Certified Figma Addict 😄)**
+- 🌐 **python And Java Programmer within (OOP)**
+- 
 - 📈 **Continuous Learning & Growth Mindset**
 
 
