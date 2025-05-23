@@ -4,14 +4,19 @@
 
 ---
 
+## 🛠️ Tools & Technologies
+| Category          | Tools/Languages                          |
+|-------------------|------------------------------------------|
+| **Cybersecurity** | Wireshark, ELK Stack, Volatility         |
+| **Linux**         | RedHat, Bash, Systemd                    |
+| **Web Dev**       | Laravel, PHP, MySQL                      |
+| **Programming**   | Python , Java (OOP)    |
+
+
 🔑 **Current Focus:**
 
-- 🛡️ **Network Operation and Analisys (Wireshark) , (ELK , Kibana ,sysmon ,...) **
-- 🌐 **Digital Forensiscs Beginner**
-- 🌐 **Linux & Redhat And shell programing **
-- 🌐 **Full-Stack Web Development in laravel**
-- 🌐 **python And Java Programmer within (OOP)**
-- 
+- 🛡️ **Network Operation and Analisys , Vurnability Testing**
+- 🌐 **Full-Stack Secure Web Development in laravel**
 - 📈 **Continuous Learning & Growth Mindset**
 
 
