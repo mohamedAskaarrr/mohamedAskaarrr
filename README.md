@@ -8,7 +8,7 @@
 
 - 🛡️ **Network Operation and Analisys (Wireshark) , (ELK , Kibana ,sysmon ,...) **
 - 🌐 **Digital Forensiscs Beginner**
-- 🌐 **Linux , Redhat And shell programing **
+- 🌐 **Linux & Redhat And shell programing **
 - 🌐 **Full-Stack Web Development in laravel**
 - 🌐 **python And Java Programmer within (OOP)**
 - 
