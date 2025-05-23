@@ -4,13 +4,27 @@
 
 ---
 
-## 🛠️ Tools & Technologies
-| Category          | Tools/Languages                          |
-|-------------------|------------------------------------------|
-| **Cybersecurity** | Wireshark, ELK Stack, Volatility         |
-| **Linux**         | RedHat, Bash, Systemd                    |
-| **Web Dev**       | Laravel, PHP, MySQL                      |
-| **Programming**   | Python , Java (OOP)    |
+## 🛠️ Tech Stack
+
+### 🛡️ **Cybersecurity & Forensics**
+<p align="left">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white" alt="Wireshark">
+  <img src="https://img.shields.io/badge/ELK_Stack-005571?style=flat&logo=elasticsearch&logoColor=white" alt="ELK Stack">
+  <img src="https://img.shields.io/badge/Volatility-000000?style=flat&logo=volatility&logoColor=white" alt="Volatility">
+</p>
+
+### 🐧 **Linux & Scripting**
+<p align="left">
+  <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat&logo=redhat&logoColor=white" alt="RedHat">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/Systemd-EE0000?style=flat&logo=systemd&logoColor=white" alt="Systemd">
+</p>
+
+### 🌐 **Web Development**
+<p align="left">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql
 
 
 🔑 **Current Focus:**
