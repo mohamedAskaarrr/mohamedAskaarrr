@@ -12,6 +12,7 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmU2ZzllYWR5Mnc0MWZwNWp6YXpmb2o2eXYwYjNuOHg0cnAyOWtmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xoicctrOv5aGw6mCZi/giphy.gif" width="300" alt="Debugging Mode">
 </p>
 
+
 ## 🚀 Secret Project in Development  
 <p align="center">
   <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense"> 
