@@ -19,7 +19,6 @@
   <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white" alt="OpenVPN">
   <img src="https://img.shields.io/badge/Security-Red?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Security"> 
   <br>
-  
   <a href="https://www.digitalocean.com/?refcode=2e7283022be8&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 </p>
 
