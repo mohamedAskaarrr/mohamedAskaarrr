@@ -1,3 +1,6 @@
+
+
+
 <p align="center">
   <!-- Red "Who is Askar?" -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=FF0000&center=true&vCenter=true&width=550&lines=Who+is+Askar%3F" alt="Who is Askar">
@@ -81,9 +84,28 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 
-🔝 Top 3 Contributed Repos
-<p align="left"> <a href="https://github.com/mohamedAskaarrr/Product-store" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="36" alt="Product Store" style="vertical-align: middle;"/> <span style="font-size: 18px; vertical-align: middle;">&nbsp;<strong>Product Store</strong></span> </a> <br/><br/> <a href="https://github.com/mohamedAskaarrr/WebSecService230104752" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" width="36" alt="Web Security" style="vertical-align: middle;"/> <span style="font-size: 18px; vertical-align: middle;">&nbsp;<strong>Web Security Service</strong></span> </a> <br/><br/> <a href="https://github.com/mohamedAskaarrr/RIP-TO-REST" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/8335/8335388.png" width="36" alt="RIP to REST" style="vertical-align: middle;"/> <span style="font-size: 18px; vertical-align: middle;">&nbsp;<strong>RIP to REST (Protocol Bridge)</strong></span> </a> </p>
----
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedAskaarrr&theme=rose_pine" width="684.2px">
+</p>
+
+<table>
+  <tr>
+    <td align="left" valign="top">
+      <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedAskaarrr&theme=rose_pine">
+    </td>
+    <td align="center" valign="bottom">
+      <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamedAskaarrr&theme=rose_pine">
+    </td>
+    <td align="right" valign="top">
+      <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohamedAskaarrr&theme=rose_pine">
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamedAskaarrr&theme=rose_pine&utcOffset=3">
+</p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <picture>
