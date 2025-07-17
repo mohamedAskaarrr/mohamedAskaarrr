@@ -80,11 +80,6 @@
 
 
 
-### ✍️Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-
-
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedAskaarrr&theme=rose_pine" width="684.2px">
 </p>
