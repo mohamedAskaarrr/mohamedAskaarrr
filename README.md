@@ -16,44 +16,46 @@
 </p>
 
 
-## 🚀 Secret Project in Development  
-<p align="center">
+<!--<p align="center">
   <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense"> 
   <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white" alt="OpenVPN">
   <img src="https://img.shields.io/badge/Security-Red?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Security"> 
   <br>
   <a href="https://www.digitalocean.com/?refcode=2e7283022be8&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+</p> -->
+
+<p align="center"> 
+
 </p>
-
-<p align="center"><strong>Creating opnVPN from DigitalOcean </strong></p>
-
-
-
-## 🛠️ My Skills
-
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=wireshark,elasticsearch,linux,bash,laravel,python,java,html,css,js" alt="Skills">
   <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white" alt="XAMPP">
 </p>
 
 ### 🛡️ **Cybersecurity & Forensics**
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white" alt="Wireshark">
   <img src="https://img.shields.io/badge/ELK_Stack-005571?style=flat&logo=elasticsearch&logoColor=white" alt="ELK Stack">
   <img src="https://img.shields.io/badge/Volatility-000000?style=flat&logo=volatility&logoColor=white" alt="Volatility">
 </p>
 
 ### 🐧 **Linux & Scripting**
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat&logo=redhat&logoColor=white" alt="RedHat">
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" alt="Bash">
 </p>
 
 ### 🌐 **Web Development**
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+</p>
+
+### 🌐 **developing VPN**
+<p align="center">
+<a href="https://www.digitalocean.com/?refcode=2e7283022be8&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+<p align="center"><strong>opnVPN has been created By DigitalOcean </strong></p>
 </p>
 
 
@@ -63,6 +65,8 @@
 - 🌐 **Full-Stack Secure Web Development in laravel**
 - 📈 **Continuous Learning & Growth Mindset**
 
+
+</p>
 
 
 
