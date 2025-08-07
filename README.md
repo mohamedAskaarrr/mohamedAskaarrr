@@ -34,22 +34,41 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/mohamed-askar-02777b283/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:mohammedhanyasker@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000)](https://discord.gg/MWpmqKue)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white&labelColor=000000)](https://stackoverflow.com/users/29977090/the-askar)
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000)](https://instagram.com/heisaskarr)
-[![BlueSky](https://img.shields.io/badge/BlueSky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=000000)](https://bsky.app/profile/askaarrr.bsky.social)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white&labelColor=000000)](https://reddit.com/user/Rska_)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=000000)](https://tiktok.com/@3skaar21)
-
-</div>
-
-<!-- Neon Divider -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  
+<!-- Professional Network Icons -->
+<a href="https://www.linkedin.com/in/mohamed-askar-02777b283/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=000000&color=0077B5"/>
+</a>
+<a href="mailto:mohammedhanyasker@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=000000&color=D14836"/>
+</a>
+<a href="https://stackoverflow.com/users/29977090/the-askar" target="_blank">
+  <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white&labelColor=000000&color=FE7A16"/>
+</a>
+
+<!-- Gaming & Community Icons -->
+<a href="https://discord.gg/MWpmqKue" target="_blank">
+  <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000&color=5865F2"/>
+</a>
+<a href="https://reddit.com/user/Rska_" target="_blank">
+  <img src="https://img.shields.io/badge/-Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white&labelColor=000000&color=FF4500"/>
+</a>
+
+<!-- Social Media Icons -->
+<a href="https://instagram.com/heisaskarr" target="_blank">
+  <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000&color=E4405F"/>
+</a>
+<a href="https://bsky.app/profile/askaarrr.bsky.social" target="_blank">
+  <img src="https://img.shields.io/badge/-BlueSky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=000000&color=0085FF"/>
+</a>
+<a href="https://tiktok.com/@3skaar21" target="_blank">
+  <img src="https://img.shields.io/badge/-TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=000000&color=FF0050"/>
+</a>
+
 </div>
+
 
 ## 📈 GitHub Insights
 
