@@ -1,114 +1,143 @@
 
 
 
-<p align="center">
-  <!-- Red "Who is Askar?" -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=FF0000&center=true&vCenter=true&width=550&lines=Who+is+Askar%3F" alt="Who is Askar">
-</p>
+<!-- Clean Professional Header -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4776E6,100:8E54E9&height=200&section=header&text=Mohamed%20Askar&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20%26%20Full-Stack%20Developer&descAlignY=58&descSize=16"/>
+</div>
 
-<p align="center">
-  <!-- Blue professional titles -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=Network+%26+Cybersecurity+Specialist;Full-Stack+Secure+Web+Developer+in+Laravel;Security-First+Problem+Solver" alt="Typing Animation">
-</p>
+<!-- Clean Typing Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=24&duration=2500&pause=1000&color=4776E6&center=true&vCenter=true&width=600&lines=Network+%26+Cybersecurity+Specialist;Laravel+Security-First+Developer;Digital+Forensics+Expert" alt="Professional Skills"/>
+</div>
 
-<p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmU2ZzllYWR5Mnc0MWZwNWp6YXpmb2o2eXYwYjNuOHg0cnAyOWtmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xoicctrOv5aGw6mCZi/giphy.gif" width="300" alt="Debugging Mode">
-</p>
+<br/>
 
+<!-- Professional Image -->
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmU2ZzllYWR5Mnc0MWZwNWp6YXpmb2o2eXYwYjNuOHg0cnAyOWtmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xoicctrOv5aGw6mCZi/giphy.gif" width="400" alt="Development Focus">
+</div>
 
-<!--<p align="center">
-  <img src="https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white" alt="OPNsense"> 
-  <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white" alt="OpenVPN">
-  <img src="https://img.shields.io/badge/Security-Red?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Security"> 
-  <br>
-  <a href="https://www.digitalocean.com/?refcode=2e7283022be8&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
-</p> -->
+<br/>
 
-<p align="center"> 
+## 🎯 Current Focus
 
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=wireshark,elasticsearch,linux,bash,laravel,python,java,html,css,js" alt="Skills">
-  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white" alt="XAMPP">
-</p>
+```yaml
+🛡️ Cybersecurity:
+  - Network Security & Analysis
+  - Vulnerability Assessment & Testing
+  - Digital Forensics & Incident Response
 
-### 🛡️ **Cybersecurity & Forensics**
-<p align="center">
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white" alt="Wireshark">
-  <img src="https://img.shields.io/badge/ELK_Stack-005571?style=flat&logo=elasticsearch&logoColor=white" alt="ELK Stack">
-  <img src="https://img.shields.io/badge/Volatility-000000?style=flat&logo=volatility&logoColor=white" alt="Volatility">
-</p>
+💻 Development:
+  - Full-Stack Laravel Applications
+  - Security-First Web Development
+  - API Security & Authentication
 
-### 🐧 **Linux & Scripting**
-<p align="center">
-  <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat&logo=redhat&logoColor=white" alt="RedHat">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" alt="Bash">
-</p>
+📚 Continuous Learning:
+  - Advanced Threat Detection
+  - Cloud Security Architecture
+  - DevSecOps Implementation
+```
 
-### 🌐 **Web Development**
-<p align="center">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
-</p>
+## 🛠️ Technology Stack
 
-### 🌐 **developing VPN**
-<p align="center">
-<a href="https://www.digitalocean.com/?refcode=2e7283022be8&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
-<p align="center"><strong>opnVPN has been created By DigitalOcean </strong></p>
-</p>
+<div align="center">
 
+### Core Technologies
+<img src="https://skillicons.dev/icons?i=linux,bash,python,php,laravel,mysql,docker,git&theme=dark" />
 
-🔑 **Current Focus:**
+### Cybersecurity Tools
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/Metasploit-ED1C24?style=for-the-badge&logo=metasploit&logoColor=white" />
+<img src="https://img.shields.io/badge/Burp_Suite-FF7D00?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white" />
 
-- 🛡️ **Network Operation and Analisys , Vurnability Testing**
-- 🌐 **Full-Stack Secure Web Development in laravel**
-- 📈 **Continuous Learning & Growth Mindset**
+### Development & Cloud
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" />
 
+</div>
 
-</p>
+## � GitHub Analytics
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mohamedAskaarrr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedAskaarrr&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180"/>
+</div>
 
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamedAskaarrr&theme=tokyonight&hide_border=true" width="500"/>
+</div>
 
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamedAskaarrr&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area=true&hide_border=true" width="90%"/>
+</div>
 
+## 🏆 Achievements
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mohamedAskaarrr&theme=tokyonight&no-frame=true&row=1&column=6" />
+</div>
 
+## 🤝 Let's Connect
 
+<div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-askar-02777b283/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammedhanyasker@gmail.com)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MWpmqKue)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/29977090/the-askar)
 
-## 🌐 Let's Connect:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/askaarrr.bsky.social) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/MWpmqKue) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/heisaskarr) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-askar-02777b283/)
- [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Rska_) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/29977090/the-askar) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@3skaar21) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammedhanyasker@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/heisaskarr)
+[![BlueSky](https://img.shields.io/badge/BlueSky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/askaarrr.bsky.social)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/user/Rska_)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@3skaar21)
 
+</div>
 
+## 📈 GitHub Insights
 
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedAskaarrr&theme=tokyonight" width="100%">
+</div>
 
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedAskaarrr&theme=tokyonight"></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamedAskaarrr&theme=tokyonight"></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohamedAskaarrr&theme=tokyonight"></td>
+    </tr>
+  </table>
+</div>
 
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedAskaarrr&theme=rose_pine" width="684.2px">
-</p>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamedAskaarrr&theme=tokyonight&utcOffset=3" width="50%">
+</div>
 
-<table>
-  <tr>
-    <td align="left" valign="top">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedAskaarrr&theme=rose_pine">
-    </td>
-    <td align="center" valign="bottom">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamedAskaarrr&theme=rose_pine">
-    </td>
-    <td align="right" valign="top">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mohamedAskaarrr&theme=rose_pine">
-    </td>
-  </tr>
-</table>
+## 🐍 Contribution Snake
 
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohamedAskaarrr&theme=rose_pine&utcOffset=3">
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake.svg" />
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" width="100%"/>
+  </picture>
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/mohamedaskaarrr/mohamedaskaarrr/output/github-snake-dark.svg" />
-</picture>
+<!-- Professional Footer -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4776E6,100:8E54E9&height=120&section=footer&text=Let's%20Build%20Something%20Amazing&fontSize=24&fontColor=fff&animation=fadeIn&fontAlignY=75"/>
+</div>
+
+<div align="center">
+  
+**💼 Open to collaboration opportunities in cybersecurity and secure web development**
+
+![Profile Views](https://komarev.com/ghpvc/?username=mohamedAskaarrr&style=flat-square&color=4776E6)
+![Followers](https://img.shields.io/github/followers/mohamedAskaarrr?style=flat-square&color=4776E6)
+
+</div>
+
