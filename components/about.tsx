@@ -13,30 +13,30 @@ export function About() {
 
   const interests = [
     {
-      icon: Shield,
-      title: "Network Security",
-      description: "Firewall configuration, intrusion detection, and network monitoring",
+      icon: Code,
+      title: "Laravel Development",
+      description: "Advanced Laravel 11+ features, Eloquent ORM, and API development",
     },
-    {
-      icon: Lock,
-      title: "Cyber Defense", 
-      description: "Threat analysis, vulnerability assessment, and incident response",
-    },
-    { icon: Code, title: "Web Development", description: "Laravel 11+, PHP, JavaScript, and modern web frameworks" },
     {
       icon: Database,
-      title: "Database Security",
-      description: "SQL injection prevention, data encryption, and access control",
+      title: "Database Architecture", 
+      description: "MySQL optimization, migrations, and scalable database design",
     },
+    { icon: Server, title: "Backend Systems", description: "RESTful APIs, microservices, and server-side architecture" },
     {
-      icon: Server,
-      title: "System Administration",
-      description: "Linux servers, containerization, and infrastructure security",
+      icon: Shield,
+      title: "Web Security",
+      description: "OWASP guidelines, secure coding practices, and authentication systems",
     },
     {
       icon: Globe,
-      title: "Web Security",
-      description: "OWASP Top 10, secure coding practices, and penetration testing",
+      title: "Full-Stack Development",
+      description: "Vue.js, React integration with Laravel backends",
+    },
+    {
+      icon: Lock,
+      title: "Security Learning",
+      description: "Exploring penetration testing and vulnerability assessment basics",
     },
   ]
 
@@ -47,11 +47,12 @@ export function About() {
           <Badge variant="outline" className="mb-4">
             About Me
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Bridging Security & Development</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Laravel Expert & Security Explorer</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            As an aspiring Network and Cyber Security professional, I'm passionate about understanding how systems
-            work—and how they can be protected. Currently diving deep into Laravel 11+ development while building a
-            strong foundation in cybersecurity principles.
+            As a passionate <span className="text-primary font-semibold bg-primary/10 px-2 py-1 rounded">Full-stack Laravel Developer</span>, 
+            I specialize in building robust, scalable web applications using modern PHP practices. 
+            Currently expanding my knowledge into <span className="text-accent font-semibold bg-accent/10 px-2 py-1 rounded">cybersecurity fundamentals</span> 
+            to create more secure and resilient applications.
           </p>
         </div>
 
@@ -84,20 +85,27 @@ export function About() {
           </div>
         )}
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {interests.map((interest, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:border-accent/50">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="p-2 bg-accent/10 rounded-lg mr-4 group-hover:bg-accent/20 transition-colors">
-                    <interest.icon className="h-6 w-6 text-accent" />
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {interests.map((interest, index) => {
+            const IconComponent = interest.icon
+            return (
+              <Card key={index} className="group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-sm border-2 border-primary/10 hover:border-primary/30 hover:shadow-primary/10">
+                <CardContent className="p-8 text-center">
+                  <div className="flex justify-center mb-6">
+                    <div className="p-4 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 group-hover:scale-110 transition-all duration-300 group-hover:bg-gradient-to-br group-hover:from-primary/20 group-hover:to-accent/20">
+                      <IconComponent className="w-8 h-8 text-primary group-hover:text-accent transition-colors duration-300" />
+                    </div>
                   </div>
-                  <h3 className="text-lg font-semibold">{interest.title}</h3>
-                </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">{interest.description}</p>
-              </CardContent>
-            </Card>
-          ))}
+                  <h3 className="text-xl font-semibold mb-4 group-hover:text-primary transition-colors duration-300">
+                    {interest.title}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+                    {interest.description}
+                  </p>
+                </CardContent>
+              </Card>
+            )
+          })}
         </div>
 
         <div className="mt-16 text-center">

@@ -8,7 +8,7 @@ import { useGitHubUser } from "@/hooks/use-github-user"
 
 export function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Aspiring Network & Cyber Security Student"
+  const fullText = "Full-stack Web Developer in Laravel"
   const { user } = useGitHubUser("mohamedAskaarrr")
 
   useEffect(() => {
@@ -29,69 +29,69 @@ export function Hero() {
       <div className="container mx-auto text-center">
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-center mb-6">
-            <Badge variant="secondary" className="px-4 py-2 text-sm font-medium">
-              <Shield className="w-4 h-4 mr-2" />
-              Currently Focused on Laravel 11+ Development
+            <Badge variant="secondary" className="px-6 py-3 text-sm font-medium backdrop-blur-md bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20">
+              <Code className="w-4 h-4 mr-2" />
+              Laravel Expert • Modern PHP Development
             </Badge>
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-accent to-primary bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent leading-tight">
             {text}
-            <span className="animate-pulse">|</span>
+            <span className="animate-pulse text-accent">|</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about securing digital infrastructures while crafting robust web applications. Exploring the
-            intersection of <span className="text-accent font-semibold">cybersecurity</span> and
-            <span className="text-primary font-semibold"> modern web development</span>.
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
+            Crafting <span className="text-accent font-semibold bg-accent/10 px-2 py-1 rounded">robust web applications</span> with 
+            Laravel 11+, building scalable architectures, and exploring 
+            <span className="text-primary font-semibold bg-primary/10 px-2 py-1 rounded ml-1">cybersecurity fundamentals</span>.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-lg border">
-              <Lock className="w-5 h-5 text-accent" />
-              <span className="text-sm font-medium">Network Security</span>
+          <div className="flex flex-wrap justify-center gap-6 mb-16">
+            <div className="flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl border border-primary/20 backdrop-blur-sm hover:scale-105 transition-all duration-300">
+              <Code className="w-6 h-6 text-primary" />
+              <span className="font-medium">Laravel 11+ Expert</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-lg border">
-              <Code className="w-5 h-5 text-primary" />
-              <span className="text-sm font-medium">Laravel 11+</span>
+            <div className="flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-accent/10 to-accent/5 rounded-2xl border border-accent/20 backdrop-blur-sm hover:scale-105 transition-all duration-300">
+              <Shield className="w-6 h-6 text-accent" />
+              <span className="font-medium">Security Enthusiast</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-lg border">
-              <Shield className="w-5 h-5 text-accent" />
-              <span className="text-sm font-medium">Cyber Defense</span>
+            <div className="flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-secondary/10 to-secondary/5 rounded-2xl border border-secondary/20 backdrop-blur-sm hover:scale-105 transition-all duration-300">
+              <Lock className="w-6 h-6 text-secondary" />
+              <span className="font-medium">Modern PHP</span>
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="glow-effect" asChild>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+            <Button size="lg" className="glow-effect bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary transform hover:scale-105 transition-all duration-300 px-8 py-4 text-lg" asChild>
               <a href="#projects">
-                View My Projects
-                <ArrowDown className="ml-2 h-4 w-4" />
+                🚀 Explore My Work
+                <ArrowDown className="ml-2 h-5 w-5" />
               </a>
             </Button>
-            <Button variant="outline" size="lg" asChild>
+            <Button variant="outline" size="lg" className="border-2 border-primary/30 hover:border-primary hover:bg-primary/10 transform hover:scale-105 transition-all duration-300 px-8 py-4 text-lg backdrop-blur-sm" asChild>
               <a href="#contact">
-                Get In Touch
-                <Mail className="ml-2 h-4 w-4" />
+                💬 Let's Connect
+                <Mail className="ml-2 h-5 w-5" />
               </a>
             </Button>
           </div>
 
-          <div className="flex justify-center space-x-6">
-            <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
+          <div className="flex justify-center space-x-8">
+            <Button variant="ghost" size="icon" className="hover:text-accent hover:scale-110 transition-all duration-300 p-4 rounded-full border border-primary/20 hover:border-accent hover:bg-accent/10 backdrop-blur-sm" asChild>
               <a href={`https://github.com/${user?.login || "mohamedAskaarrr"}`} target="_blank" rel="noopener noreferrer">
-                <Github className="h-6 w-6" />
+                <Github className="h-7 w-7" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-              <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-6 w-6" />
+            <Button variant="ghost" size="icon" className="hover:text-accent hover:scale-110 transition-all duration-300 p-4 rounded-full border border-primary/20 hover:border-accent hover:bg-accent/10 backdrop-blur-sm" asChild>
+              <a href="https://www.linkedin.com/in/mohamed-askar-02777b283/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-7 w-7" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
+            <Button variant="ghost" size="icon" className="hover:text-accent hover:scale-110 transition-all duration-300 p-4 rounded-full border border-primary/20 hover:border-accent hover:bg-accent/10 backdrop-blur-sm" asChild>
               <a href={`mailto:${user?.email || "contact@example.com"}`}>
-                <Mail className="h-6 w-6" />
+                <Mail className="h-7 w-7" />
                 <span className="sr-only">Email</span>
               </a>
             </Button>

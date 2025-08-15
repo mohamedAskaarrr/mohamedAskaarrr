@@ -6,6 +6,7 @@ import { Progress } from "@/components/ui/progress"
 import { AnimatedCounter } from "@/components/animated-counter"
 import { useInView } from "@/hooks/use-in-view"
 import { useEffect, useState } from "react"
+import { Code, Trophy, Zap, Target } from "lucide-react"
 
 export function Skills() {
   const [skillsRef, skillsInView] = useInView({ threshold: 0.3 })
@@ -20,40 +21,42 @@ export function Skills() {
     {
       title: "Web Development",
       skills: [
-        { name: "Laravel 11+", level: 85, color: "bg-red-500" },
-        { name: "PHP 8.3+", level: 80, color: "bg-blue-500" },
-        { name: "JavaScript", level: 75, color: "bg-yellow-500" },
-        { name: "MySQL", level: 70, color: "bg-orange-500" },
-        { name: "HTML/CSS", level: 90, color: "bg-green-500" },
+        { name: "Laravel 11+", level: 95, color: "bg-red-500" },
+        { name: "PHP 8.3+", level: 92, color: "bg-blue-500" },
+        { name: "JavaScript", level: 88, color: "bg-yellow-500" },
+        { name: "MySQL", level: 85, color: "bg-orange-500" },
+        { name: "HTML/CSS", level: 95, color: "bg-green-500" },
+        { name: "Vue.js", level: 80, color: "bg-emerald-500" },
+        { name: "React", level: 75, color: "bg-cyan-500" },
       ],
     },
     {
-      title: "Cybersecurity",
+      title: "Backend & Architecture",
       skills: [
-        { name: "Network Security", level: 70, color: "bg-purple-500" },
-        { name: "Penetration Testing", level: 65, color: "bg-red-600" },
-        { name: "Vulnerability Assessment", level: 75, color: "bg-orange-600" },
-        { name: "Incident Response", level: 60, color: "bg-blue-600" },
-        { name: "Security Auditing", level: 68, color: "bg-green-600" },
+        { name: "RESTful APIs", level: 92, color: "bg-indigo-500" },
+        { name: "Database Design", level: 88, color: "bg-purple-500" },
+        { name: "MVC Architecture", level: 95, color: "bg-pink-500" },
+        { name: "Authentication", level: 90, color: "bg-rose-500" },
+        { name: "Caching Strategies", level: 82, color: "bg-violet-500" },
       ],
     },
     {
-      title: "Tools & Technologies",
+      title: "Cybersecurity (Learning)",
       skills: [
-        { name: "Linux Administration", level: 75, color: "bg-gray-600" },
-        { name: "Docker", level: 65, color: "bg-blue-400" },
-        { name: "Git/GitHub", level: 85, color: "bg-gray-800" },
-        { name: "Wireshark", level: 70, color: "bg-blue-700" },
-        { name: "Metasploit", level: 60, color: "bg-red-700" },
+        { name: "Network Security", level: 45, color: "bg-purple-500" },
+        { name: "Web Security", level: 65, color: "bg-red-600" },
+        { name: "Vulnerability Assessment", level: 40, color: "bg-orange-600" },
+        { name: "Security Auditing", level: 38, color: "bg-green-600" },
+        { name: "Penetration Testing", level: 35, color: "bg-blue-600" },
       ],
     },
   ]
 
   const certifications = [
-    "CompTIA Security+ (In Progress)",
-    "Ethical Hacking Fundamentals",
-    "Laravel Certified Developer (Planned)",
-    "Network+ (Studying)",
+    "Laravel Certified Developer (Advanced)",
+    "PHP Zend Certified Engineer (Pursuing)",
+    "CompTIA Security+ (Studying)",
+    "Ethical Hacking Fundamentals (In Progress)",
   ]
 
   return (
@@ -73,36 +76,48 @@ export function Skills() {
         {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           {[
-            { label: "Projects Completed", value: 15, suffix: "+" },
-            { label: "Technologies Mastered", value: 20, suffix: "+" },
-            { label: "Hours of Learning", value: 500, suffix: "+" },
-            { label: "Certifications Earned", value: 3, suffix: "" }
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
-                {animationTriggered ? (
-                  <AnimatedCounter end={stat.value} suffix={stat.suffix} duration={2000} />
-                ) : (
-                  `0${stat.suffix}`
-                )}
+            { label: "Laravel Projects", value: 25, suffix: "+", icon: Code },
+            { label: "Years Experience", value: 3, suffix: "+", icon: Trophy },
+            { label: "Hours Coding", value: 2000, suffix: "+", icon: Zap },
+            { label: "Technologies Mastered", value: 15, suffix: "+", icon: Target }
+          ].map((stat, index) => {
+            const IconComponent = stat.icon
+            return (
+              <div key={index} className="text-center group">
+                <div className="flex justify-center mb-4">
+                  <div className="p-4 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 group-hover:scale-110 transition-all duration-300">
+                    <IconComponent className="w-8 h-8 text-primary" />
+                  </div>
+                </div>
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
+                  {animationTriggered ? (
+                    <AnimatedCounter end={stat.value} suffix={stat.suffix} duration={2000} />
+                  ) : (
+                    `0${stat.suffix}`
+                  )}
+                </div>
+                <div className="text-sm text-muted-foreground font-medium">{stat.label}</div>
               </div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="h-fit transform transition-all duration-300 hover:scale-105">
-              <CardHeader>
-                <CardTitle className="text-xl">{category.title}</CardTitle>
+            <Card key={index} className="h-fit transform transition-all duration-500 hover:scale-105 bg-gradient-to-br from-card/50 to-card/30 backdrop-blur-sm border-2 border-primary/10 hover:border-primary/20 hover:shadow-2xl hover:shadow-primary/10">
+              <CardHeader className="pb-4">
+                <CardTitle className="text-xl bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  {category.title}
+                </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-6">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="space-y-2">
+                  <div key={skillIndex} className="space-y-3 group">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground">
+                      <span className="text-sm font-semibold group-hover:text-primary transition-colors">
+                        {skill.name}
+                      </span>
+                      <span className="text-sm text-muted-foreground font-bold px-2 py-1 rounded-lg bg-primary/5">
                         {animationTriggered ? (
                           <AnimatedCounter end={skill.level} suffix="%" duration={1500 + skillIndex * 200} />
                         ) : (
@@ -110,11 +125,20 @@ export function Skills() {
                         )}
                       </span>
                     </div>
-                    <Progress 
-                      value={animationTriggered ? skill.level : 0} 
-                      className="h-2 transition-all duration-1000 ease-out" 
-                      style={{ transitionDelay: `${skillIndex * 100}ms` }}
-                    />
+                    <div className="relative">
+                      <Progress 
+                        value={animationTriggered ? skill.level : 0} 
+                        className="h-3 bg-muted/50 transition-all duration-1000 ease-out rounded-full overflow-hidden" 
+                        style={{ transitionDelay: `${skillIndex * 100}ms` }}
+                      />
+                      <div 
+                        className="absolute top-0 left-0 h-full rounded-full bg-gradient-to-r from-primary to-accent opacity-80 transition-all duration-1000 ease-out"
+                        style={{ 
+                          width: animationTriggered ? `${skill.level}%` : '0%',
+                          transitionDelay: `${skillIndex * 100}ms`
+                        }}
+                      />
+                    </div>
                   </div>
                 ))}
               </CardContent>

@@ -29,15 +29,23 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border" : "bg-transparent"
+        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border shadow-lg" : "bg-transparent"
       }`}
     >
+      {/* Scroll Progress Bar */}
+      <div 
+        className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-primary to-accent transition-all duration-300 ease-out"
+        style={{ width: `${scrollProgress}%` }}
+      />
+      
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-accent" />
+            <div className="p-2 rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20">
+              <Shield className="h-6 w-6 text-accent" />
+            </div>
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Protofolio
+              Portfolio
             </span>
           </div>
 
