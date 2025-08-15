@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowDown, Github, Linkedin, Mail, Shield, Code, Lock } from "lucide-react"
 import { useEffect, useState } from "react"
+import { useGitHubUser } from "@/hooks/use-github-user"
 
 export function Hero() {
   const [text, setText] = useState("")
   const fullText = "Aspiring Network & Cyber Security Student"
+  const { user } = useGitHubUser("mohamedAskaarrr")
 
   useEffect(() => {
     let i = 0
@@ -76,19 +78,19 @@ export function Hero() {
 
           <div className="flex justify-center space-x-6">
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href={`https://github.com/${user?.login || "mohamedAskaarrr"}`} target="_blank" rel="noopener noreferrer">
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-              <a href="mailto:contact@example.com">
+              <a href={`mailto:${user?.email || "contact@example.com"}`}>
                 <Mail className="h-6 w-6" />
                 <span className="sr-only">Email</span>
               </a>

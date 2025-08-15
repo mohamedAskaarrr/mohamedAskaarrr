@@ -1,8 +1,21 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
+import { AnimatedCounter } from "@/components/animated-counter"
+import { useInView } from "@/hooks/use-in-view"
+import { useEffect, useState } from "react"
 
 export function Skills() {
+  const [skillsRef, skillsInView] = useInView({ threshold: 0.3 })
+  const [animationTriggered, setAnimationTriggered] = useState(false)
+
+  useEffect(() => {
+    if (skillsInView && !animationTriggered) {
+      setAnimationTriggered(true)
+    }
+  }, [skillsInView, animationTriggered])
   const skillCategories = [
     {
       title: "Web Development",
@@ -44,7 +57,7 @@ export function Skills() {
   ]
 
   return (
-    <section id="skills" className="py-20 px-4">
+    <section id="skills" className="py-20 px-4" ref={skillsRef}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
@@ -57,9 +70,30 @@ export function Skills() {
           </p>
         </div>
 
+        {/* Stats Section */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+          {[
+            { label: "Projects Completed", value: 15, suffix: "+" },
+            { label: "Technologies Mastered", value: 20, suffix: "+" },
+            { label: "Hours of Learning", value: 500, suffix: "+" },
+            { label: "Certifications Earned", value: 3, suffix: "" }
+          ].map((stat, index) => (
+            <div key={index} className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
+                {animationTriggered ? (
+                  <AnimatedCounter end={stat.value} suffix={stat.suffix} duration={2000} />
+                ) : (
+                  `0${stat.suffix}`
+                )}
+              </div>
+              <div className="text-sm text-muted-foreground">{stat.label}</div>
+            </div>
+          ))}
+        </div>
+
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="h-fit">
+            <Card key={index} className="h-fit transform transition-all duration-300 hover:scale-105">
               <CardHeader>
                 <CardTitle className="text-xl">{category.title}</CardTitle>
               </CardHeader>
@@ -68,9 +102,19 @@ export function Skills() {
                   <div key={skillIndex} className="space-y-2">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-medium">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground">{skill.level}%</span>
+                      <span className="text-sm text-muted-foreground">
+                        {animationTriggered ? (
+                          <AnimatedCounter end={skill.level} suffix="%" duration={1500 + skillIndex * 200} />
+                        ) : (
+                          "0%"
+                        )}
+                      </span>
                     </div>
-                    <Progress value={skill.level} className="h-2" />
+                    <Progress 
+                      value={animationTriggered ? skill.level : 0} 
+                      className="h-2 transition-all duration-1000 ease-out" 
+                      style={{ transitionDelay: `${skillIndex * 100}ms` }}
+                    />
                   </div>
                 ))}
               </CardContent>

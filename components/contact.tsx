@@ -8,31 +8,65 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone, Send, Github, Linkedin } from "lucide-react"
+import { Mail, MapPin, Phone, Send, Github, Linkedin, CheckCircle, AlertCircle } from "lucide-react"
+import { useInView } from "@/hooks/use-in-view"
 
 export function Contact() {
+  const [contactRef, contactInView] = useInView({ threshold: 0.3 })
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
   })
+  const [formStatus, setFormStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
+  const [errors, setErrors] = useState<Record<string, string>>({})
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const validateForm = () => {
+    const newErrors: Record<string, string> = {}
+    
+    if (!formData.name.trim()) newErrors.name = "Name is required"
+    if (!formData.email.trim()) newErrors.email = "Email is required"
+    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Email is invalid"
+    if (!formData.subject.trim()) newErrors.subject = "Subject is required"
+    if (!formData.message.trim()) newErrors.message = "Message is required"
+    else if (formData.message.length < 10) newErrors.message = "Message must be at least 10 characters"
+
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
+    
+    if (!validateForm()) return
+
+    setFormStatus("loading")
+    
+    // Simulate API call
+    try {
+      await new Promise(resolve => setTimeout(resolve, 2000))
+      setFormStatus("success")
+      setFormData({ name: "", email: "", subject: "", message: "" })
+      setTimeout(() => setFormStatus("idle"), 5000)
+    } catch (error) {
+      setFormStatus("error")
+      setTimeout(() => setFormStatus("idle"), 5000)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+    
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: "" }))
+    }
   }
 
   return (
-    <section id="contact" className="py-20 px-4 bg-muted/30">
+    <section id="contact" className="py-20 px-4 bg-muted/30" ref={contactRef}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
@@ -47,7 +81,7 @@ export function Contact() {
 
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <Card>
+            <Card className={`transition-all duration-700 ${contactInView ? "animate-in slide-in-from-left-4" : "opacity-0"}`}>
               <CardHeader>
                 <CardTitle>Send a Message</CardTitle>
               </CardHeader>

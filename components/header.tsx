@@ -4,10 +4,12 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Shield, Menu, X } from "lucide-react"
+import { useScrollProgress } from "@/hooks/use-scroll-progress"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const scrollProgress = useScrollProgress()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,6 +84,14 @@ export function Header() {
             </div>
           </nav>
         )}
+      </div>
+      
+      {/* Scroll Progress Bar */}
+      <div className="absolute bottom-0 left-0 w-full h-0.5 bg-border">
+        <div 
+          className="h-full bg-gradient-to-r from-primary to-accent transition-all duration-300 ease-out"
+          style={{ width: `${scrollProgress}%` }}
+        />
       </div>
     </header>
   )

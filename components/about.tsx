@@ -1,8 +1,16 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Shield, Code, Database, Server, Lock, Globe } from "lucide-react"
+import { Shield, Code, Database, Server, Lock, Globe, Users, GitBranch } from "lucide-react"
+import { useGitHubUser } from "@/hooks/use-github-user"
+import { AnimatedCounter } from "@/components/animated-counter"
+import { useInView } from "@/hooks/use-in-view"
 
 export function About() {
+  const [aboutRef, aboutInView] = useInView({ threshold: 0.3 })
+  const { user, loading } = useGitHubUser("mohamedAskaarrr")
+
   const interests = [
     {
       icon: Shield,
@@ -11,7 +19,7 @@ export function About() {
     },
     {
       icon: Lock,
-      title: "Cyber Defense",
+      title: "Cyber Defense", 
       description: "Threat analysis, vulnerability assessment, and incident response",
     },
     { icon: Code, title: "Web Development", description: "Laravel 11+, PHP, JavaScript, and modern web frameworks" },
@@ -33,7 +41,7 @@ export function About() {
   ]
 
   return (
-    <section id="about" className="py-20 px-4">
+    <section id="about" className="py-20 px-4" ref={aboutRef}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
@@ -46,6 +54,35 @@ export function About() {
             strong foundation in cybersecurity principles.
           </p>
         </div>
+
+        {/* GitHub Stats */}
+        {user && (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+            {[
+              { label: "Public Repositories", value: user.public_repos, icon: GitBranch },
+              { label: "Followers", value: user.followers, icon: Users },
+              { label: "Following", value: user.following, icon: Users },
+              { label: "Years on GitHub", value: new Date().getFullYear() - new Date(user.created_at).getFullYear(), icon: Code }
+            ].map((stat, index) => {
+              const IconComponent = stat.icon
+              return (
+                <div key={index} className="text-center">
+                  <div className="flex justify-center mb-2">
+                    <IconComponent className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
+                    {aboutInView ? (
+                      <AnimatedCounter end={stat.value} duration={2000} />
+                    ) : (
+                      "0"
+                    )}
+                  </div>
+                  <div className="text-sm text-muted-foreground">{stat.label}</div>
+                </div>
+              )
+            })}
+          </div>
+        )}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {interests.map((interest, index) => (
