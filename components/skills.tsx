@@ -21,42 +21,40 @@ export function Skills() {
     {
       title: "Web Development",
       skills: [
-        { name: "Laravel 11+", level: 95, color: "bg-red-500" },
-        { name: "PHP 8.3+", level: 92, color: "bg-blue-500" },
-        { name: "JavaScript", level: 88, color: "bg-yellow-500" },
-        { name: "MySQL", level: 85, color: "bg-orange-500" },
-        { name: "HTML/CSS", level: 95, color: "bg-green-500" },
-        { name: "Vue.js", level: 80, color: "bg-emerald-500" },
-        { name: "React", level: 75, color: "bg-cyan-500" },
+        { name: "HTML/CSS", level: 90, color: "bg-orange-500" },
+        { name: "JavaScript", level: 75, color: "bg-yellow-500" },
+        { name: "PHP", level: 70, color: "bg-blue-500" },
+        { name: "Laravel", level: 65, color: "bg-red-500" },
+        { name: "MySQL", level: 70, color: "bg-blue-600" },
       ],
     },
     {
-      title: "Backend & Architecture",
+      title: "Cybersecurity",
       skills: [
-        { name: "RESTful APIs", level: 92, color: "bg-indigo-500" },
-        { name: "Database Design", level: 88, color: "bg-purple-500" },
-        { name: "MVC Architecture", level: 95, color: "bg-pink-500" },
-        { name: "Authentication", level: 90, color: "bg-rose-500" },
-        { name: "Caching Strategies", level: 82, color: "bg-violet-500" },
+        { name: "Network Security", level: 60, color: "bg-purple-500" },
+        { name: "Security Fundamentals", level: 65, color: "bg-red-600" },
+        { name: "Vulnerability Assessment", level: 55, color: "bg-orange-600" },
+        { name: "Ethical Hacking Basics", level: 50, color: "bg-blue-600" },
+        { name: "Security Awareness", level: 70, color: "bg-green-600" },
       ],
     },
     {
-      title: "Cybersecurity (Learning)",
+      title: "Tools & Technologies",
       skills: [
-        { name: "Network Security", level: 45, color: "bg-purple-500" },
-        { name: "Web Security", level: 65, color: "bg-red-600" },
-        { name: "Vulnerability Assessment", level: 40, color: "bg-orange-600" },
-        { name: "Security Auditing", level: 38, color: "bg-green-600" },
-        { name: "Penetration Testing", level: 35, color: "bg-blue-600" },
+        { name: "Git/GitHub", level: 80, color: "bg-gray-800" },
+        { name: "Linux Basics", level: 60, color: "bg-gray-600" },
+        { name: "VS Code", level: 85, color: "bg-blue-400" },
+        { name: "Wireshark", level: 50, color: "bg-blue-700" },
+        { name: "Virtual Machines", level: 65, color: "bg-green-500" },
       ],
     },
   ]
 
   const certifications = [
-    "Laravel Certified Developer (Advanced)",
-    "PHP Zend Certified Engineer (Pursuing)",
-    "CompTIA Security+ (Studying)",
+    "Currently Pursuing IT Certifications",
     "Ethical Hacking Fundamentals (In Progress)",
+    "Network Security Studies",
+    "Laravel Development Learning Path",
   ]
 
   return (

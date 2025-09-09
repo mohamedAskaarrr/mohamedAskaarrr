@@ -20,6 +20,11 @@
   100% { transform: rotate(360deg) translateX(40px) rotate(-360deg); }
 }
 
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @keyframes profile-glow {
   0%, 100% { 
     box-shadow: 0 0 30px rgba(139, 92, 246, 0.4), 
@@ -109,6 +114,10 @@
 
 .animate-orbit {
   animation: orbit 10s linear infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
 }
 
 .animate-profile-glow {
